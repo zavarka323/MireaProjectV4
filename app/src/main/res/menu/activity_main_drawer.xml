@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_brouser"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/calculateFragment"
+            android:icon="@drawable/ic_menu_calculate"
+            android:title="@string/menu_calculate" />
+        <item
+            android:id="@+id/webViewFragment"
+            android:icon="@drawable/ic_menu_web"
+            android:title="@string/menu_web" />
+        <item
+            android:id="@+id/musicFragment"
+            android:icon="@drawable/ic_menu_music"
+            android:title="@string/menu_music" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_camera" />
+        <item
+            android:id="@+id/recordAudioFragment"
+            android:icon="@drawable/ic_menu_record_audio"
+            android:title="@string/menu_record" />
+        <item
+            android:id="@+id/showSensorsFragment"
+            android:icon="@drawable/ic_menu_sensors"
+            android:title="@string/menu_sensors" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/historyFragment"
+            android:icon="@drawable/ic_menu_history"
+            android:title="@string/menu_history" />
+    </group>
+</menu>
